@@ -14,11 +14,11 @@ class CuboidMaker {
   }
   
   class cuboid extends CuboidMaker{
-  constructor() 
-  length= 4;
-  width= 5;
-  height= 5;
-   
+  constructor() {
+  length = 4,
+  width = 5,
+  height =5,
+  }
   }
   // Test your volume and surfaceArea methods by uncommenting the logs below:
   console.log(cuboid.volume()); // 100
